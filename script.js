@@ -1,5 +1,7 @@
 import { answers } from "./answers/index"
 
+console.log('sciprt js imported')
+
 const mainButton = document.querySelector(".main-btn")
 const resultAreaCZ = document.querySelector(".result-area-cz")
 
@@ -37,6 +39,7 @@ recorderCZ.onresult = ((event) => onResult(event, "cs"))
 // recorderEN.onresult = ((event) => onResult(event))
 
 const handleOnClick = () => {
+    console.log('click')
     if (listening) {
         mainButton.innerHTML = "start"
     } else {
