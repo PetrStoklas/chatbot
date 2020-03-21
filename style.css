@@ -1,0 +1,22 @@
+.main-wrap {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.main-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.main-btn:active {
+    vertical-align: top;
+    padding-top: 8px;
+}
+
+.main-btn:focus {
+    outline:0;
+}
+
