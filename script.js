@@ -1,9 +1,8 @@
 import { answers } from "./answers/index.js"
 
-console.log('sciprt js imported')
-
 const mainButton = document.querySelector(".main-btn")
 const resultAreaCZ = document.querySelector(".result-area-cz")
+const answerAreaCZ = document.querySelector(".answer-area-cz")
 
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
 // const recorderEN = new SpeechRecognition()
@@ -29,7 +28,7 @@ const onResult = (event, lang = "en") => {
         const textRecognised = event.results[0][0].transcript
         resultArea.innerHTML = textRecognised
         const answer = answers(textRecognised)
-        resultAreaCZ.innerHTML = answer || ""
+        answerAreaCZ.innerHTML = answer || ""
     } else {
         resultArea.innerHTML = "No results. Try again please."
     }
