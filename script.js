@@ -35,6 +35,7 @@ const onResult = (event, lang = "en") => {
 
     mainButton.innerHTML = "start"
     listening = !listening
+    handleOnClick()
 }
 
 recorderCZ.onresult = ((event) => onResult(event, "cs"))
