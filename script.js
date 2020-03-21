@@ -32,6 +32,9 @@ const onResult = (event, lang = "en") => {
     } else {
         resultArea.innerHTML = "No results. Try again please."
     }
+
+    mainButton.innerHTML = "start"
+    listening = !listening
 }
 
 recorderCZ.onresult = ((event) => onResult(event, "cs"))
