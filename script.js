@@ -1,4 +1,4 @@
-import { answers } from "./answers/index"
+import { answers } from "./answers/index.js"
 
 console.log('sciprt js imported')
 
