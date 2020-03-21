@@ -1,0 +1,19 @@
+{
+  "name": "speechrecognition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetrStoklas/chatbot.git"
+  },
+  "author": "Petr Stoklas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PetrStoklas/chatbot/issues"
+  },
+  "homepage": "https://github.com/PetrStoklas/chatbot#readme"
+}

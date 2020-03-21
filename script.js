@@ -44,8 +44,10 @@ const handleOnClick = () => {
     console.log('click')
     if (listening) {
         mainButton.innerHTML = "start"
+        mainButton.bgColor = "green"
     } else {
         mainButton.innerHTML = "stop"
+        mainButton.bgColor = "red"
         // recorderEN.start()
         recorderCZ.start()
     }
